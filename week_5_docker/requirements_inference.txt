@@ -1,4 +1,4 @@
-pytorch-lightning==1.2.10
+pytorch-lightning==1.6.0rc0
 datasets==1.6.2
 scikit-learn==0.24.2
 hydra-core
@@ -7,3 +7,5 @@ hydra_colorlog
 onnxruntime
 fastapi
 uvicorn
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
