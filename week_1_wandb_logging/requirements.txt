@@ -6,3 +6,4 @@ wandb
 torchmetrics
 matplotlib
 seaborn
+huggingface-hub>=0.13.4 # not directly required, pinned by Snyk to avoid a vulnerability
