@@ -7,3 +7,4 @@ hydra_colorlog
 onnxruntime
 fastapi
 uvicorn
+sympy>=1.12 # not directly required, pinned by Snyk to avoid a vulnerability
