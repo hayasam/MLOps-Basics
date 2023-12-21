@@ -9,3 +9,4 @@ seaborn
 hydra-core
 omegaconf
 hydra_colorlog
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
