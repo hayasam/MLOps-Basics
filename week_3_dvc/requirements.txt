@@ -1,6 +1,6 @@
-pytorch-lightning==1.2.10
+pytorch-lightning==1.6.0rc0
 datasets==1.6.2
-transformers==4.5.1
+transformers==4.38.0
 scikit-learn==0.24.2
 wandb
 torchmetrics
@@ -9,3 +9,12 @@ seaborn
 hydra-core
 omegaconf
 hydra_colorlog
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+huggingface-hub>=0.13.4 # not directly required, pinned by Snyk to avoid a vulnerability
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
