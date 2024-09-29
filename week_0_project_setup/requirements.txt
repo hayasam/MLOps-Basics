@@ -2,3 +2,7 @@ pytorch-lightning==1.2.10
 datasets==1.6.2
 transformers==4.5.1
 scikit-learn==0.24.2
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tqdm>=4.66.3 # not directly required, pinned by Snyk to avoid a vulnerability
