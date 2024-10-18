@@ -7,3 +7,4 @@ hydra_colorlog
 onnxruntime
 fastapi
 uvicorn
+starlette>=0.40.0 # not directly required, pinned by Snyk to avoid a vulnerability
