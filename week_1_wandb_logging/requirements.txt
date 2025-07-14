@@ -1,8 +1,10 @@
 pytorch-lightning==1.2.10
 datasets==1.6.2
-transformers==4.5.1
+transformers==4.52.0
 scikit-learn==0.24.2
 wandb
 torchmetrics
 matplotlib
 seaborn
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
